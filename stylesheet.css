@@ -1,0 +1,393 @@
+@charset "utf-8";
+/* CSS Document */
+/*This is all universal css found in all htmls. This includes Navigation Bar css*/
+
+* {    margin: 0;    padding: 0; }
+
+footer {
+	
+	margin-left: 10px;
+	font-size: 14px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+mark {
+	
+	background-color: transparent;
+	color: white;
+}
+
+hr {
+	
+	border: 1px solid black;
+	margin-top: 10px;
+}
+
+footer {
+	
+	margin-top: 10px;
+}
+
+header {
+	
+	overflow: hidden;
+	background-color: #243333;
+	width: 100%;
+	height: 50px;
+}
+
+.Logo {
+	
+	display:block;
+	float: left;
+}
+
+nav.Menu {
+	
+	float: right;
+	margin-top: 12px;
+}
+
+ul.navvy li.navy {
+	
+	list-style: none;
+	display: inline-block;
+	padding-left: 15px; 
+	text-align: center;
+}
+
+ul.navvy li.navy a {
+	
+	text-decoration: none;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	color: #FFFFFF
+}
+
+body {
+	
+	background-color: #598080;
+}
+
+/*Contact Form*/
+/*This is all the css for the Contact Form page*/
+
+h2.C {
+	
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+h3.detail {
+	
+	font-size:22px;
+	margin-top: 20px;
+	margin-bottom: -10px;
+	margin-left: 20px;
+}
+
+input {
+	
+	margin-top: 15px;
+	width: 800px;
+	margin-left: 20px;
+}
+
+textarea {
+	
+	margin-top: 15px;
+	width: 800px;
+	height: 150px;
+	margin-left: 20px;
+}
+
+button {
+	
+	display: block;
+	margin-top: 10px;
+	margin-left: 20px
+}
+
+.Contact {
+	
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	border: 1px solid black;
+	background-color: #ffffff;
+	height: 450px;
+	width: 865px;
+}
+
+.Top {
+	
+	background-color: #00B38F;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+.instructions {
+	
+	margin-top: 5px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16px;
+}
+
+/*Main Menu*/
+/*This is all the css for the Main menu/Index page*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 15px;
+}
+
+.grid-item {
+  border: 2px solid black;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 45px;
+  height:20px;
+  width:275px;
+  color: black;
+  background-color: white;
+ font-size: 18px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+/*Tried to make the divs chnage color when you hover the mouse but for some reason it didnt work*/
+
+a:hover.grid-item {
+	
+	color: #33ffff;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+.Logo2 {
+	
+	padding-top: 20px;
+	padding-bottom: 10px;
+	display: block;
+	text-align: center;
+}
+
+/*Social Apps*/
+/*This is all the css for the Social Apps page*/
+
+h2.Title1 {
+	
+	text-align: justify;
+	text-align-last: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 36px;
+	padding-top: 25px;
+	text-decoration: underline;
+	color: white;
+}
+
+p.message {
+	
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: white;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 15px;
+}
+
+img.grid-item2 {
+  
+ border: 2px solid black;
+  text-align: center;
+  border-radius: 45px;
+  height: 100px;
+  width: 350px;
+ margin-bottom: 5px;
+ margin-left: 5px;
+}
+
+a.link2 {
+	
+	border-radius: 45px;
+}
+
+
+/*About Us*/
+/*This is all the css for the About Us page*/
+
+h1.H {
+	
+	display: block;
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-decoration: underline;
+	color: white;
+	margin-top: 20px;
+}
+
+#introduction {
+	
+	font-size: 20px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin-left: 140px;
+	margin-right: 140px;
+	margin-top: 20px;
+}
+
+/*Extra-info*/
+/*This is all the css for the Extrainfo page*/
+
+
+.subheadings {
+	
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 20px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+}
+
+div.Sublinks {
+	
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h3.subheaders {
+	
+	text-decoration: underline;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 22px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+p.p1 {
+	
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 18px;
+}
+
+p.comment {
+	
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.Logo3 {
+	
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+
+table, td, th {
+	
+	border: 2.5px solid black;
+	border-collapse: collapse;
+	margin-top: 10px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	
+}
+
+th {
+	
+	background-color: #00b38f;
+}
+
+td, th {
+	
+	font-size: 20px;
+	padding: 10px;
+}
+
+/*Social Media Apps*/
+/*This is all the css for all the Social Media pages. This includes Slack, Instagram and Twitter*/
+
+h4.what {
+	
+	margin-top: 10px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	font-style: italic;
+	margin-left: 16px;
+}
+
+a.Oliver {
+	
+	color: black;
+}
+
+a:hover.Oliver {
+	
+	color: white;
+	
+}
+
+a.weblink {
+	
+	color: #33FFFF;
+}
+
+a:hover.weblink {
+	
+color: white;
+	
+}
+
+a:visited.weblink {
+	
+	color: purple;
+		
+}
+
+/*Sitemap*/
+/*This is the css for the Sitemap*/
+
+ul.sitemap {
+	
+	text-decoration: underline;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+a.slink {
+	
+	color: black;
+}
+
+a:Hover.slink {
+	
+	color: white;
+}
+
+a:visited.slink {
+	
+	color: purple;
+}
